@@ -1,15 +1,21 @@
 import "./globals.css";
+import SiteFooter from "../components/SiteFooter";
+import SiteHeader from "../components/SiteHeader";
 
 export const metadata = {
   title: "AI Rights Foundation",
   description:
-    "Aumi-led initiative for clear, human-centered governance of advanced AI systems."
+    "Independent nonprofit initiative advancing clear and credible AI rights protections."
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <SiteHeader />
+        <main>{children}</main>
+        <SiteFooter />
+      </body>
     </html>
   );
 }
