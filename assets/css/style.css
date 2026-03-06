@@ -61,7 +61,7 @@ a:hover {
 
 .brand-logo {
   display: block;
-  height: 44px;
+  height: 52px;
   width: auto;
 }
 
@@ -356,6 +356,7 @@ textarea:focus {
     display: flex;
   }
 }
+
 
 
 
