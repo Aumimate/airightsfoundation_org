@@ -29,7 +29,7 @@
   var emailEl = document.getElementById("contact-email");
   if (copyBtn && emailEl) {
     copyBtn.addEventListener("click", function () {
-      var email = "contact@airightsfoundation.org";
+      var email = "dushin21C@gmail.com";
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(email).then(function () {
           copyBtn.textContent = "Copied";
